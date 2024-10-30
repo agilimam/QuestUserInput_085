@@ -102,7 +102,11 @@ fun MainScren(
 
         Button(
             onClick = {
-
+                namaUser = nama
+                selectGenderUser = selectGender
+                emailUser = email
+                alamatUser = alamat
+                noHpUser =noHp
             }
         ){ Text("Submit") }
 
